@@ -1,0 +1,9 @@
+#container{
+    border: 2px solid;
+}
+/* > children of container */
+/* general sibiling ~ */
+/* adjacent sibling + */
+#container + p{ 
+    background-color: rgb(0, 255, 217);
+}

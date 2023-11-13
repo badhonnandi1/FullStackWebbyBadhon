@@ -1,0 +1,51 @@
+#flag{
+    border: 2px solid;
+    background-color: black;
+    top: 10px;
+    position: fixed;
+}
+#box1{
+    border: 2px solid;
+    border-radius: 1em;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    /* position: relative;
+    top: 100px; 
+    left: 100px; */
+    /* position: fixed;
+    right: 0px;
+    bottom: 0px; */
+    /* position: fixed;
+    top: 100px;
+    left: 100px; */
+    position: fixed;
+    left: 18px;
+    /* /* */
+    top: 0px; 
+
+}
+#box2{
+    border: 2px solid;
+    border-radius: 5em;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 64, 0);
+    /* position: relative;
+    top: 100px; 
+    left: 100px; */
+    /* position: fixed;
+    right: 0px;
+    bottom: 0px; */
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+#rod{
+    border: 1px solid;
+    color: black;
+    width: 5px;
+    height: 500px;
+    background-color: black;
+    position: fixed;
+}

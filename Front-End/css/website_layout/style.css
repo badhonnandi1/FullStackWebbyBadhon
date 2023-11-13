@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+}
+.navbar{
+    background-color: rgb(54, 55, 56);
+    height: 50px;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+aside h2{
+    text-align: center;
+}
+
+aside p{
+    text-align: center;
+}
+
+section{
+    width: 40%;
+    float:left;
+    padding: 10px;
+
+}
+
+section h2{
+    text-align: center;
+}
+
+section p{
+    text-align: center;
+}
+
+article{
+    width: 40%;
+    float:left;
+    padding: 10px;
+}
+
+article h2{
+    text-align: center;
+}
+article p{
+    text-align: center;
+}
+
+footer{
+    display: block;
+    clear: both;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width:600px){
+    aside, section , article{
+        width: 100%;
+    }
+}

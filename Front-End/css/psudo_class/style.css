@@ -1,0 +1,36 @@
+a:link{
+    color: blue;
+}
+a:hover{
+    color: aquamarine;
+    font-size: 1.1em;
+}
+a:active{
+    color: rgb(214, 79, 11);
+    font-size: 1.1em;
+}
+a:visited{
+    color: gray(34, 178, 154);
+}
+
+li:hover{
+    background-color: yellow;
+}
+li:not(:hover){
+    background-color: gray;
+
+}
+/* any formula */
+li:nth-child(odd){ 
+    background-color: rgb(255, 81, 0);
+}
+
+#greeting p{
+    background-color: aqua;
+    padding: 10px;
+    display: none;
+}
+
+#greeting:hover p{
+    display: block;
+}
